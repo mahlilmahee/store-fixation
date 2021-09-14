@@ -55,7 +55,7 @@ body {
 .single-product:hover {
   box-shadow: 4px 4px 7px gray;
   border-radius: 10px;
-  border: 2px solid cyan;
+  border: 2px solid rgb(240, 108, 19);
   background-color: rgba(29, 197, 219, 0.692);
 }
 .product-image{
