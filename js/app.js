@@ -4,7 +4,6 @@ const loadProducts = () => {
   showProducts(data);
 };
 
-
 // show all product in UI 
 const showProducts = (products) => {
   const allProducts = products.map((pd) => pd);
@@ -30,9 +29,6 @@ const showProducts = (products) => {
     
   }
 };
-
-
-
 
 let count = 0;
 const addToCart = (id, price) => {
@@ -87,4 +83,4 @@ const updateTotal = () => {
   document.getElementById("total").innerText =parseFloat(grandTotal).toFixed(2);
 };
 loadProducts();
-// updateTotal();
+
