@@ -19,9 +19,9 @@ const showProducts = (products) => {
       <h3>${product.title}</h3>
       <p>Category: ${product.category}</p>
       <h2>Price: $ ${product.price}</h2>
-      <div class=" d-flex justify-content-evenly"><h3>Average rating : ${ product.rating.rate} (${product.rating.count})</h3> 
+      <h5>Average rating : ${ product.rating.rate}/5 (Total:${product.rating.count})</h5> 
       
-      </div>
+     
       <button onclick="addToCart(${product.id},${product.price})" id="addToCart-btn" class="buy-now btn btn-lg text-dark btn-outline-danger">add to cart</button>
       <button id="details-btn" class="btn text-blue btn-lg btn-outline-dark"  >Details</button></div>
       `;
